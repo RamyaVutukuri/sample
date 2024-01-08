@@ -16,4 +16,9 @@ public class HelloWorld {
     public String message1(){
         return "Welcome to Sample Spring Boot Application";
     }
+
+    @GetMapping("/viewAll")
+    public String message2(){
+        return "Welcome to HelloWorld Spring Boot Application";
+    }
 }
